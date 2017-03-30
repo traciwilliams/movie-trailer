@@ -8,6 +8,9 @@ body {
 	font-family: 'Anton', sans-serif;
 }
 
+img {
+	 box-shadow: 10px 10px 5px #f2984a;
+}
 
 
 /*======NAVIGATON========*/
@@ -44,9 +47,9 @@ body {
 main {
 	position: absolute;
 	top: 450px;
-	right: 0px;
+	right: 0;
 	bottom: 10px;
-	left: 800px;
+	left: 750px;
 	width: 300px;
 	height: 250px;
 	color: red;
@@ -58,7 +61,7 @@ main {
 footer {
 	width: 100%;
 	padding: 1px 0 10px 0;
-	margin-left: 20px;
+	margin-left: 40px;
 	text-align: left;
 	font-size: 10px;
 	clear: both;
