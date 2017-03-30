@@ -3,10 +3,59 @@ body {
 	width: 100%;
 }
 
-
-
 body {
 	background-image: url("images/fast-and-furious-8.jpg");
+}
+
+
+
+/*======NAVIGATON========*/
+#main-nav {
+	width: 10%;
+	padding: 0;
+	margin-top: 400px;
+	background-color: red;
+}
+
+#main-nav ul {
+	list-style-type: none;
+}
+
+#main-nav li {
+	display: block;
+	padding: 15px 0 15px 0; 
+}
+
+#main-nav a {
+	text-decoration: none;
+	color: yellow;
+}
+
+#main-nav a:hover {
+	color: purple;
+    text-shadow: 2px 2px 4px #ffffff;
+	background-color: green;
+}
+
+/*======MAIN========*/
+main {
+	position: absolute;
+	top: 450px;
+	right: 0px;
+	bottom: 10px;
+	left: 800px;
+	width: 300px;
+	height: 250px;
+	color: red;
+	//background-color: white;
+}
+
+
+/*======FOOTER========*/
+footer {
+	clear: both;
+	color: red;
+	background-color: yellow;
 }
 
 
